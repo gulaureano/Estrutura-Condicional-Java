@@ -1,0 +1,85 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner (System.in);
+		
+		// Exercicio 1
+		/*
+		int a;
+		
+		a = sc.nextInt();
+		if (a < 0) {
+			System.out.println(a + " é um número negativo");
+		}
+		else {
+			System.out.println(a + " é um número positivo");
+		}
+		*/
+		
+		//Exercicio 2
+		/*
+		int a;
+		int resto;
+		
+		a = sc.nextInt();
+		resto = a%2;
+		if (resto == 0) {
+			System.out.println(a + " é um número par");
+		}
+		else {
+			System.out.println(a + " é um número ímpar");
+		}*/
+		
+		//Exercicio 3
+		/*
+		int a;
+		int b;
+		int multiplos = 0;
+		
+		a = sc.nextInt();
+		b = sc.nextInt();
+		
+		if (a>b) {
+			multiplos = a%b;
+		}
+		else {
+			multiplos = b%a;
+			
+		}
+		
+		if (multiplos == 0) {
+			System.out.println(a + " e "+ b + " são números múltiplos");
+		}
+		else {
+			System.out.println(a + " e " + b + " não são números múltiplos");
+		}
+		*/
+		
+		//Exercicio 4
+		
+		int horaInicial;
+		int horaFinal;
+		int duracao;
+		
+		horaInicial = sc.nextInt();
+		horaFinal = sc.nextInt();
+		
+		if (horaInicial < horaFinal) {
+			duracao = horaFinal - horaInicial;
+		}
+		else {
+			duracao = 24 - horaInicial + horaFinal;
+		}
+		
+		System.out.println("A duração do jogo foi de " + duracao + "horas");
+		
+		
+		
+		
+		sc.close();
+
+	}
+
+}

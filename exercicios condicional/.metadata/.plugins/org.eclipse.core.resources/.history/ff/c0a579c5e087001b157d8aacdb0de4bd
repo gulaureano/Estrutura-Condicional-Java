@@ -1,0 +1,155 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner (System.in);
+		
+		// Exercicio 1
+		/*
+		int a;
+		
+		a = sc.nextInt();
+		if (a < 0) {
+			System.out.println(a + " é um número negativo");
+		}
+		else {
+			System.out.println(a + " é um número positivo");
+		}
+		*/
+		
+		//Exercicio 2
+		/*
+		int a;
+		int resto;
+		
+		a = sc.nextInt();
+		resto = a%2;
+		if (resto == 0) {
+			System.out.println(a + " é um número par");
+		}
+		else {
+			System.out.println(a + " é um número ímpar");
+		}*/
+		
+		//Exercicio 3
+		/*
+		int a;
+		int b;
+		int multiplos = 0;
+		
+		a = sc.nextInt();
+		b = sc.nextInt();
+		
+		if (a>b) {
+			multiplos = a%b;
+		}
+		else {
+			multiplos = b%a;
+			
+		}
+		
+		if (multiplos == 0) {
+			System.out.println(a + " e "+ b + " são números múltiplos");
+		}
+		else {
+			System.out.println(a + " e " + b + " não são números múltiplos");
+		}
+		*/
+		
+		//Exercicio 4
+		/*
+		int horaInicial;
+		int horaFinal;
+		int duracao;
+		
+		horaInicial = sc.nextInt();
+		horaFinal = sc.nextInt();
+		
+		if (horaInicial < horaFinal) {
+			duracao = horaFinal - horaInicial;
+		}
+		else {
+			duracao = 24 - horaInicial + horaFinal;
+		}
+		
+		System.out.println("A duração do jogo foi de " + duracao + "horas");
+		*/
+		
+		//Exercicio 5
+		
+		/*		
+		int codigo;
+		int quantidade;
+		double preco;
+		double total;
+		
+		codigo = sc.nextInt();
+		quantidade = sc.nextInt();
+		
+		if (codigo == 1) {
+			preco = 4.0;
+			total = preco * quantidade;
+			System.out.println("O total é de: R$" + total);
+		}
+		else {
+			if (codigo == 2) {
+				preco = 4.5;
+				total = preco * quantidade;
+				System.out.println("O total é de: R$" + total);
+			}
+			
+			if (codigo == 3) {
+				preco = 5.0;
+				total = preco * quantidade;
+				System.out.println("O total é de: R$" + total);
+			}
+			
+			if (codigo == 4) {
+				preco = 2.0;
+				total = preco * quantidade;
+				System.out.println("O total é de: R$" + total);
+			}
+			
+			if (codigo == 5) {
+				preco = 1.5;
+				total = preco * quantidade;
+				System.out.println("O total é de: R$" + total);
+			}
+			
+			else {
+				System.out.println("Você digitou um código inválido");
+			}
+		}
+		*/
+		
+		//Exercicio
+		
+		double valor;
+		
+		valor = sc.nextDouble();
+		
+		if (valor >= 0 && valor <= 25.0) {
+			System.out.println("Interval [0 - 25]");
+		}
+		else {
+			if (valor >= 25.1 && valor <= 50.0) {
+				System.out.println("Interval [25 - 50]");
+			}
+			if (valor >= 50.1 && valor <= 75.0) {
+				System.out.println("Interval [50 - 75]");
+			}
+			if (valor >= 75.1 && valor <= 100.0) {
+				System.out.println("Interval [75 - 100]");
+			}
+			else {
+				System.out.println("Valor fora do Interval");
+			}
+		}
+		
+		
+		sc.close();
+
+	}
+
+}

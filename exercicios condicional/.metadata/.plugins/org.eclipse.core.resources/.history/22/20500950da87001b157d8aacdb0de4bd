@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner (System.in);
+		
+		int a;
+		int numero;
+		
+		a = sc.nextInt();
+		if (a < 0) {
+			System.out.println(a + "é negativo");
+		}
+		else {
+			System.out.println(a + "é positivo");
+		}
+		
+		
+		
+		
+		
+		sc.close();
+
+	}
+
+}

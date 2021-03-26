@@ -1,0 +1,42 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner (System.in);
+		
+		// Exercicio 1
+		/*
+		int a;
+		
+		a = sc.nextInt();
+		if (a < 0) {
+			System.out.println(a + " é um número negativo");
+		}
+		else {
+			System.out.println(a + " é um número positivo");
+		}
+		*/
+		
+		//Exercicio 2
+		
+		int a;
+		int resto;
+		
+		a = sc.nextInt();
+		resto = a%2;
+		if (resto == 0) {
+			System.out.println(a + " é um número par");
+		}
+		else {
+			System.out.println(a + " é um número ímpar");
+		}
+		
+		
+		
+		
+		sc.close();
+
+	}
+
+}

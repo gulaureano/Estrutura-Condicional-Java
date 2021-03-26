@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+C:\GustavoProjetc\Java Completo\Estrutura Condicional\exercicios condicional\.metadata\.plugins\org.eclipse.jdt.core
+2964060909.index
+1497378174.index
